@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app-header,
+.app-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.app-header {
+  padding: 30px;
+  border: 1px solid red;
+}
+.app-nav {
+  gap: 30px;
+}
+.head-link {
+  display: inline-block;
+  border: none;
+  text-decoration: none;
+}
+.app-nav {
+  list-style: none;
+}
+.contact-cell {
+  display: flex;
+  gap: 20px;
+}
