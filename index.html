@@ -8,47 +8,43 @@
   </head>
   <body>
     <header class="app-header">
-      <div class="logo-cell"><p>logo</p></div>
+      <div class="logo-cell"><p>Verpex</p></div>
       <nav class="navigation-cell">
         <ul class="app-nav">
           <li class="app-link">
             <a class="head-link Reseller" href="#">Reseller hosting</a>
           </li>
-          <li class="app-link">
-            <a class="head-link web" href="#">
-              web hosting <ion-icon name="chevron-down-outline"></ion-icon>
-            </a>
+          <li class="app-link top-icon-link">
+            <a class="head-link web" href="#"> web hosting </a>
+            <ion-icon name="chevron-down-outline"></ion-icon>
           </li>
-          <li class="app-link">
-            <a class="head-link sever" href="#">
-              private server <ion-icon name="chevron-down-outline"></ion-icon>
-            </a>
+          <li class="app-link top-icon-link">
+            <a class="head-link sever" href="#"> private server </a>
+            <ion-icon name="chevron-down-outline"></ion-icon>
           </li>
-          <li class="app-link">
-            <a class="head-link DOM" href="#">
-              domains <ion-icon name="chevron-down-outline"></ion-icon>
-            </a>
+          <li class="app-link top-icon-link">
+            <a class="head-link DOM" href="#"> domains </a>
+            <ion-icon name="chevron-down-outline"></ion-icon>
           </li>
-          <li class="app-link">
-            <a class="head-link ABOUTS" href="#">
-              about <ion-icon name="chevron-down-outline"></ion-icon>
-            </a>
+          <li class="app-link top-icon-link">
+            <a class="head-link ABOUTS" href="#"> about </a>
+            <ion-icon name="chevron-down-outline"></ion-icon>
           </li>
           <li class="app-link"><a class="head-link" href="#">blog</a></li>
         </ul>
       </nav>
       <div class="contact-cell">
-        <button class="app-btn">support</button
-        ><button class="app-btn">log in</button>
+        <button class="app-btn">Support</button
+        ><button class="app-btn btn2">Log in</button>
       </div>
     </header>
 
     <main>
       <section class="main-part">
-        <div>
-          <a href="#">blog</a>
-          <a href="#">web site tips</a>
-          <p>how to create css- only</p>
+        <div class="blog">
+          <a class="page-link" href="#">blog</a>
+          <a class="page-link" href="#">website tips</a>
+          <p>how to create CSS-only</p>
         </div>
         <div class="main-part-cell">
           <div>
@@ -62,23 +58,21 @@
                 class="owner"
               />
               <p class="owner-name">
-                Written by <a href="#">Codesman Munir</a> <em>Web Developer</em>
+                Written by <a class="page-link" href="#">Codesman Munir</a>
+                <em>Web Developer</em>
               </p>
             </div>
-            <div>
-              <p>october 15, 2023</p>
-              <a href="#">web sitetips</a>
+            <div class="dates">
+              <p>October 15, 2023</p>
+              <a class="page-link" href="#">web sitetips</a>
             </div>
             <div class="tips">
-              <div>
-                <div class="inside-tips">
-                  <p class="csss"></p>
-                  <p class="csss-small">css tricks</p>
-                  <h1 class="tips-dis">create an infinite scroll animation</h1>
-                  <div class="tips-na-ce">
-                    <h3 class="name">By Codesman Munir</h3>
-                    <p>img</p>
-                  </div>
+              <div class="inside-tips">
+                <p class="csss-small">css tricks</p>
+                <h1 class="tips-dis">create an infinite scroll animation</h1>
+                <div class="tips-na-ce">
+                  <h3 class="name">By Codesman Munir</h3>
+                  <p>img</p>
                 </div>
               </div>
             </div>
@@ -87,11 +81,21 @@
             <h1>on this page</h1>
             <div>
               <ul>
-                <li>the code structure</li>
-                <li>the animations</li>
-                <li>add the gap</li>
-                <li>more examples</li>
-                <li>conclution</li>
+                <li>
+                  <a class="page-link" href="#">the code structure</a>
+                </li>
+                <li>
+                  <a class="page-link" href="#">the animations</a>
+                </li>
+                <li>
+                  <a class="page-link" href="#">add the gap</a>
+                </li>
+                <li>
+                  <a class="page-link" href="#">more examples</a>
+                </li>
+                <li>
+                  <a class="page-link" href="#">conclution</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -100,24 +104,32 @@
       <section class="links-products">
         <div class="link-pros abouts about-cell">
           <ul class="product-cell">
-            <li class="li-link"><a class="pros-ID" href="#">about us</a></li>
-            <li class="li-link">
+            <li class="li-link link-icon">
+              <ion-icon name="information-outline"></ion-icon
+              ><a class="pros-ID" href="#">about us</a>
+            </li>
+            <li class="li-link link-icon">
+              <ion-icon name="analytics-outline"></ion-icon>
               <a class="pros-ID" href="#">our technology</a>
             </li>
-            <li class="li-link">
+            <li class="li-link link-icon">
+              <ion-icon name="snow-outline"></ion-icon>
               <a class="pros-ID" href="#">afliliate program </a>
             </li>
-            <li class="li-link">
+            <li class="li-link link-icon">
+              <ion-icon name="layers-outline"></ion-icon>
               <a class="pros-ID" href="#">knowlodge base</a>
             </li>
           </ul>
         </div>
         <div class="link-pros domains">
           <ul class="product-cell">
-            <li class="li-link">
+            <li class="li-link link-icon">
+              <ion-icon name="logo-wordpress"></ion-icon>
               <a class="pros-ID" href="#">domain registration</a>
             </li>
-            <li class="li-link">
+            <li class="li-link link-icon">
+              <ion-icon name="bus-outline"></ion-icon>
               <a class="pros-ID" href="#">domain transfer</a>
             </li>
           </ul>
@@ -125,29 +137,44 @@
         <div class="link-pros private-server">
           <ul class="product-cell">
             <li class="li-link">
-              <a class="pros-ID" href="#">VPS Hoisting</a>
+              <div class="link-icon">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+                <a class="pros-ID" href="#">VPS Hoisting</a>
+              </div>
               <p class="host-dis">
                 for medium sized businesses needing more control
               </p>
             </li>
             <li class="li-link">
-              <a class="pros-ID" href="#">windows VPS</a>
+              <div class="link-icon">
+                <ion-icon name="logo-windows"></ion-icon>
+                <a class="pros-ID" href="#">windows VPS</a>
+              </div>
               <p class="host-dis">
                 perfect for bussiness requiring Window-specific solution
               </p>
             </li>
             <li class="li-link">
-              <a class="pros-ID" href="#">lunix VPS </a>
+              <div class="link-icon">
+                <ion-icon name="logo-electron"></ion-icon>
+                <a class="pros-ID" href="#">lunix VPS </a>
+              </div>
               <p class="host-dis">
                 ideal for bussunes seeking flexible, lunix-based- solutions
               </p>
             </li>
             <li class="li-link">
-              <a class="pros-ID" href="#">managed cloud severs</a>
+              <div class="link-icon">
+                <ion-icon name="logo-soundcloud"></ion-icon>
+                <a class="pros-ID" href="#">managed cloud severs</a>
+              </div>
               <p class="host-dis">all technical duties on-us</p>
             </li>
             <li class="li-link">
-              <a class="pros-ID" href="#">managed worldpress hosting</a>
+              <div class="link-icon">
+                <ion-icon name="logo-wordpress"></ion-icon>
+                <a class="pros-ID" href="#">managed worldpress hosting</a>
+              </div>
               <p class="host-dis">full maintainance for your worldpress site</p>
             </li>
           </ul>
@@ -155,19 +182,28 @@
         <div class="link-pros web-hosting">
           <ul class="product-cell">
             <li class="li-link">
-              <a class="pros-ID" href="#">worldpress hosting</a>
+              <div class="link-icon">
+                <ion-icon name="logo-wordpress"></ion-icon>
+                <a class="pros-ID" href="#">worldpress hosting</a>
+              </div>
               <p class="host-dis">
                 for small to medium sized bussinesses needing more control
               </p>
             </li>
             <li class="li-link">
-              <a class="pros-ID" href="#">shared hosting</a>
+              <div class="link-icon">
+                <ion-icon name="share-outline"></ion-icon>
+                <a class="pros-ID" href="#">shared hosting</a>
+              </div>
               <p class="host-dis">
                 for small bussiness start up, and personal websites
               </p>
             </li>
             <li class="li-link">
-              <a class="pros-ID" href="#">cloud web hosting </a>
+              <div class="link-icon">
+                <ion-icon name="logo-soundcloud"></ion-icon>
+                <a class="pros-ID" href="#">cloud web hosting </a>
+              </div>
               <p class="host-dis">
                 modern solution for startups and e-comernce sites
               </p>
